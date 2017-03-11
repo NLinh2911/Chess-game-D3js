@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: #496810;
+}
+
+div {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*svg {
+  border: solid 5px #496810;
+}*/
+h1, h4 {
+	text-align: center;
+}
+#btn-container {
+	text-align: center;
+	margin: 30 auto;
+}
+.active {
+  fill: #496810;
+  stroke-width: 4px;
+}
+
+.rect-over {
+  stroke: #496810;
+  stroke-width: 3px;
+}
